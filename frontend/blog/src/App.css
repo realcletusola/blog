@@ -1,0 +1,99 @@
+.navbar {
+  /* background-color: transparent; */
+  padding: 3px;
+  background: linear-gradient(rgba(10, 39, 165, 0.7),
+	rgba(9, 60, 136, 0.8));
+  height: 42px;
+}
+.navbar .logo {
+  float: left;
+  padding: 5px;
+  margin: 7px;
+  font-style: oblique;
+}
+.navbar ul {
+  float: right;
+  display: block;
+  margin: 7px;
+  padding: 5px;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 4px;
+  margin: 4px;
+  margin-top: -5px;
+}
+.navbar ul li .nav-link{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+}
+.navbar ul li .nav-link:hover{
+  padding: 7px;
+  background-color: white;
+  color: rgb(98, 98, 238);
+  border-radius: 5px;
+}
+.home-container{
+  background-color: whitesmoke;
+  padding: 8px;
+  margin: 4px;
+}
+.home-div{
+  width: 80%;
+  margin: auto;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  margin-top: 40px;
+  height: 200px;
+}
+.home-div .home-text{
+  font-size: 20px;
+  margin-top: 60px;
+}
+.home-div button{
+  padding: 14px;
+  border-radius: 8px;
+  background: linear-gradient(rgba(10, 39, 165, 0.7),
+	rgba(9, 60, 136, 0.8));
+  border: transparent;
+}
+.home-div button .to-blog-link{
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.home-container .home-blog{
+  width: 90%;
+  padding: 8px;
+  margin: auto;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+}
+.home-blog-single{
+  width: 350px;
+  padding: 3px;
+  margin: 4px;
+  border-radius: 6px;
+  display: inline-block;
+  border: 2px solid rgb(115, 115, 206) ;
+  text-align: center;
+  word-break: break-all;
+}
+.home-blog-single .home-blog-single-img{
+  width: 300px;
+  height: 300px;
+  margin-top: 4px;
+}
+.copyright{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 13px;
+}
