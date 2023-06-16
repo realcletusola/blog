@@ -11,6 +11,10 @@
   margin: 7px;
   font-style: oblique;
 }
+.navbar .logo .logo-link{
+  text-decoration: none;
+  color: black;
+}
 .navbar ul {
   float: right;
   display: block;
@@ -81,7 +85,7 @@
   margin: 4px;
   border-radius: 6px;
   display: inline-block;
-  border: 2px solid rgb(115, 115, 206) ;
+  border: 2px solid rgb(212, 212, 214) ;
   text-align: center;
   word-break: break-all;
 }
@@ -89,6 +93,39 @@
   width: 300px;
   height: 300px;
   margin-top: 4px;
+}
+.home-blog-single .home-blog-single-link{
+  text-decoration: none;
+}
+.detail-container{
+  width: 90%;
+  margin: auto;
+  padding: 8px;
+  text-align: center;
+  margin-top: 30px;
+}
+.detail-container .detail-img{
+  width: 50%;
+  height: 400px;
+}
+.detail-container h3{
+  text-align: justify;
+}
+.detail-container p{
+  text-align: justify;
+}
+.detail-container .contents{
+  margin-top: 70px;
+}
+.page-not-found{
+  width: 50%;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+.page-not-found h2 {
+  font-size: 30px;
 }
 .copyright{
   width: 100%;

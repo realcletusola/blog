@@ -8,7 +8,7 @@ const Navbar = () => {
     return (
         <React.Fragment>
             <div className="navbar">
-                <h3 className="logo">Axis Blog</h3>
+                <h3 className="logo"><Link className="logo-link" to='/'>Axis Blog</Link></h3>
                 <ul>
                     <li><Link className="nav-link" to= '/'>Home</Link></li>
                     <li><Link className="nav-link" to='/blog'>Blog</Link></li>
