@@ -9,8 +9,8 @@ from .views import (BlogPostListView,
 
 urlpatterns = [
     path('',BlogPostListView.as_view(), name='index'),
-    path('featured/',BlogPostFeaturedView.as_view()),
-    path('<slug>/',BlogPostDetailView.as_view()),
+    path('featured/',BlogPostFeaturedView.as_view(), name='featured'),
+    path('<slug>/',BlogPostDetailView.as_view(), name='details'),
     path('summernote/', include('django_summernote.urls')),
     
 ]
