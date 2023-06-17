@@ -15,11 +15,13 @@
 <p>install required libraries- pip install -r requirements.txt</p>
 <p>make migrations and runserver</p>
 
-<p>Backend Url:  https://axisblog.pythonanywhere.com/api/blog/ </p>
 
 <h4>Frontend</h4>
 <p>change directory to frontend/blog folder</p>
-<p>install required packages with npm install</p>
+<p>install required packages with npm install</p> 
 <p>start app</p>
+
+<p> Website url(frontend view): https://axisblog.netlify.app/ </p>
+
 
 
