@@ -21,7 +21,7 @@
 <p>install required packages with npm install</p> 
 <p>start app</p>
 
-<p> Website url(frontend view): https://axisblog.netlify.app/ </p>
+<p> Website url(frontend): https://axisblog.netlify.app/ </p>
 
 
 
