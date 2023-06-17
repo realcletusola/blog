@@ -1,4 +1,4 @@
-<h2>Blog site built with DRF and React js</h2>
+<h2>Blog built with DRF and React js</h2>
 
 
 <h3>Dirs</h3>
