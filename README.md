@@ -6,7 +6,7 @@
 <p>Frontend/blog folder contains the frontend(react js) code</p>
 
 <h3>Usage</h3>
-<p>git clone github.com/cletusola/blog.git</p>
+<p>git clone github.com/cletusola/blog.git .</p>
 
 <h4>Backend</h4>
 <p>change directory to the backend folder</p>
